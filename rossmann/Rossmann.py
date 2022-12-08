@@ -7,11 +7,11 @@ import datetime
 
 class Rossmann(object):
     def __init__(self):
-        self.competition_distance_scaler = pickle.load(open(r'C:\Users\matheus.bulhoes\OneDrive - Grupo Fleury\Comunidade DS\DS_em_Producao\rossmann-store-sales\parameters\competition_distance_scaler.pkl', 'rb'))
-        self.competition_time_month_scaler = pickle.load(open(r'C:\Users\matheus.bulhoes\OneDrive - Grupo Fleury\Comunidade DS\DS_em_Producao\rossmann-store-sales\parameters\competition_time_month_scaler.pkl', 'rb'))
-        self.promo_time_week_scaler = pickle.load(open(r'C:\Users\matheus.bulhoes\OneDrive - Grupo Fleury\Comunidade DS\DS_em_Producao\rossmann-store-sales\parameters\promo_time_week_scaler.pkl', 'rb'))
-        self.year_scaler = pickle.load(open(r'C:\Users\matheus.bulhoes\OneDrive - Grupo Fleury\Comunidade DS\DS_em_Producao\rossmann-store-sales\parameters\year_scaler.pkl', 'rb'))
-        self.store_type_scaler = pickle.load(open(r'C:\Users\matheus.bulhoes\OneDrive - Grupo Fleury\Comunidade DS\DS_em_Producao\rossmann-store-sales\parameters\store_type_scaler.pkl', 'rb'))
+        self.competition_distance_scaler = pickle.load(open('parameters/competition_distance_scaler.pkl', 'rb'))
+        self.competition_time_month_scaler = pickle.load(open('parameters/competition_time_month_scaler.pkl', 'rb'))
+        self.promo_time_week_scaler = pickle.load(open('parameters/promo_time_week_scaler.pkl', 'rb'))
+        self.year_scaler = pickle.load(open('parameters/year_scaler.pkl', 'rb'))
+        self.store_type_scaler = pickle.load(open('parameters/store_type_scaler.pkl', 'rb'))
         
     def data_cleaning(self, df):
         # Sempre faça uma cópia do dataser quando você trocar de seção
