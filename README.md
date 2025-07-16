@@ -1,5 +1,3 @@
-# Rossmann Sales Prediction
-
 # 📊 Rossmann Sales Prediction
 
 **Sales forecasting for up to 6 weeks for the Rossmann pharmacy chain**, focused on cost reduction and financial impact.
