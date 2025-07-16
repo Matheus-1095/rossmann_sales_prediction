@@ -69,11 +69,12 @@ Rossmann operates thousands of stores across Europe and needs better sales forec
 |--------------------------|--------|-----------|
 | **Mean Error (MAPE)**    | 36%    | **4.65%** |
 | **Financial Impact**     | —      | €19M/mo   |
-| **Forecast Horizon**     | 6 wks  | 6 wks     |
+| **Forecast Horizon**     | Random | 6 wks     |
 
 ---  
 
 ## 📁 Repository Structure
+```bash
 📦 rossmann_sales_prediction
 ├── notebooks/             # EDA, feature engineering, ML training
 ├── app.py                 # Flask prediction API
@@ -82,4 +83,4 @@ Rossmann operates thousands of stores across Europe and needs better sales forec
 ├── requirements.txt
 ├── src/                   # Helper functions and pipeline code
 └── README.md
-
+```
