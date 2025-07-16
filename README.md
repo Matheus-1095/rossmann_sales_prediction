@@ -14,10 +14,7 @@
 3. [Architecture & Technologies](#architecture--technologies)  
 4. [Data Flow](#data-flow)  
 5. [Results & Metrics](#results--metrics)  
-6. [How to Run](#how-to-run)  
-7. [Repository Structure](#repository-structure)  
-8. [Contributing](#contributing)  
-9. [Contact](#contact)
+6. [Repository Structure](#repository-structure)
 
 ---
 
